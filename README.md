@@ -1,2 +1,6 @@
 # Module-6
-In this module, we learn about databases 
+This module is about databases divided into: 
+
+1. SQL and MySQL
+2. Sequelize ORM (NODE package)
+
