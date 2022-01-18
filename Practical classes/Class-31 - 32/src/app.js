@@ -7,6 +7,9 @@ const moviesRoutes = require('./routes/moviesRoutes');
 const genresRoutes = require('./routes/genresRoutes');
 const app = express();
 
+app.use(express.urlencoded({ extended: false }));
+app.use(express.json());
+
 // view engine setup
 app.set('views', path.resolve(__dirname, './views'));
 app.set('view engine', 'ejs');
